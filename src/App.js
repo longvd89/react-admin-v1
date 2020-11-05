@@ -37,13 +37,19 @@ function App() {
                         <p>
                             Edit <code>src/App.js</code> and save to reload.
                         </p>
-
                         <p>
                             Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                            Vestibulum tortor quam, feugiat vitae, ghhg hello my name is log i am developer i like play football
+                            Vestibulum tortor quam, feugiat vitae, ghhg hello my name is log i am developer i like play football  ghhg hello my name is log i am developer i like play football
 
                         </p>
-                        <div className="App-header"></div>
+
+                        <div className="App-header">
+                        <p>
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                            Vestibulum tortor quam, feugiat vitae, ghhg hello my name is log i am developer i like play football  ghhg hello my name is log i am developer i like play football
+
+                        </p>
+                        </div>
 
 
                     </PageContainer>

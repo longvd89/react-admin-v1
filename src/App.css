@@ -7,6 +7,18 @@
   pointer-events: none;
 }
 
+html{
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;  /*!*makes the body non-scrollable (we will add scrolling to the sidebar and main content containers)*! */
+  margin: 0px;  /*removes default style*/
+  display: flex;  /*enables flex content for its children*/
+  box-sizing: border-box;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -31,10 +43,11 @@
 .Main-content {
   display: flex;
   flex-direction: column;
+  height: 100vh;
   /*margin-left: 250px;*/
-  flex-grow: 1;
+  flex: 1;
   /*justify-content: flex-start;*/
-  /*overflow: hidden;*/
+  overflow-y: auto;
 }
 
 @keyframes App-logo-spin {

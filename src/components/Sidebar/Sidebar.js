@@ -5,7 +5,9 @@ import {SidebarContainer} from "./SidebarElement";
 function Sidebar() {
     return (
         <>
-            <SidebarContainer/>
+            <SidebarContainer>
+                <p> i'm side bar</p>
+            </SidebarContainer>
         </>
     );
 }

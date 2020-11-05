@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const FooterWrapper = styled.div`
-    display:flex;
+    /* display:flex; */
     bottom: 0;
     padding: 20px 12px;
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     color: #74788d;
     left: 250px;
@@ -15,8 +15,8 @@ export const FooterWrapper = styled.div`
 export const FooterContainer = styled.div`
     display:flex;
     justify-content: space-between;
-    height:70px;
-    width: 100%;
+    height:60px;
+    //width: 100%;
     padding-right: 12px;
     padding-left: 12px;
     margin-right: auto;
