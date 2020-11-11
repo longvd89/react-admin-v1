@@ -18,10 +18,30 @@ export const NavbarContainer = styled.div`
     display:flex;
     justify-content: space-between;
     height:70px;
-     width:100%;
-     max-width:1300px;
+    width:100%;
+    /* max-width:1300px; */
     margin-right: auto;
     margin-left: auto;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    @media screen and (max-width: 991px) {
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+`;
+
+export const Column = styled.div`
+    display: flex;
+    align-self: center;
+    align-items: center;
+`;
+
+export const MenuToogle = styled.div`
+    margin-right: 0.5rem;
+    display: block;
+    padding : 0 1rem;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
 `;
